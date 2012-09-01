@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SudokuGame">
+</Property><Property Name="Solution File" Value="D:\Projects\Sudoku\SudokuGame\SudokuGame.sln">
+</Property><Property Name="User Options File" Value="D:\Projects\Sudoku\SudokuGame\SudokuGame.suo">
+</Property><Property Name="Date" Value="Tuesday, March 16, 2010">
+</Property><Property Name="Time" Value="23:16 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SudokuGame.sln" Description="File successfully backed up as D:\Projects\Sudoku\SudokuGame\Backup\SudokuGame.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SudokuGame.suo" Description="File successfully backed up as D:\Projects\Sudoku\SudokuGame\Backup\SudokuGame.suo">
+</Event><Event ErrorLevel="2" Project="SudokuGame" Source="SudokuGame\SudokuGame.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="SudokuGame.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SudokuGame.sln" Description="Converted">
+</Event></UpgradeLog>

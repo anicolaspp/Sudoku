@@ -1,0 +1,12 @@
+bin\Debug\SudokuGame.exe
+bin\Debug\SudokuGame.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Nikos.SudokuGame.Properties.Resources.resources
+obj\Debug\SudokuGame.csproj.GenerateResource.Cache
+obj\Debug\SudokuGame.exe
+obj\Debug\SudokuGame.pdb
+obj\Debug\Nikos.SudokuGame.SudokuGame.resources
+bin\Debug\SudokuCore.dll
+bin\Debug\SudokuCore.pdb
+bin\Debug\SudokuCore.xml
+obj\Debug\Nikos.SudokuGame.AboutBox1.resources

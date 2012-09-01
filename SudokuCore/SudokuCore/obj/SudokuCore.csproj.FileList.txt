@@ -1,0 +1,6 @@
+bin\Debug\SudokuCore.dll
+bin\Debug\SudokuCore.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SudokuCore.dll
+obj\Debug\SudokuCore.pdb
+bin\Debug\Sudoku.Utils.xml

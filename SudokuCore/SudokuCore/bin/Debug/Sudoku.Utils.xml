@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sudoku.Utils</name>
+    </assembly>
+    <members>
+        <member name="T:SudokuGame.Utils.SudokuCell">
+            <summary>
+            Representa una celda dentro del tablero de Sudoku
+            </summary>
+        </member>
+        <member name="M:SudokuGame.Utils.SudokuCell.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Se construye un celda de sudoku a partir de sus cordenadas. La celda queda con valor cero.
+            </summary>
+            <param name="x">Coordenada x de la nueva celda. El valor debe estar entre 0 y 8.</param>
+            <param name="y">Coordenada y de la nueva celda. El valor debe estar entre 0 y 8.</param>
+        </member>
+        <member name="M:SudokuGame.Utils.SudokuCell.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Se construye un celda de sudoku a partir de sus cordenadas y el valorque debealmacenar.
+            </summary>
+            <param name="x">Coordenada x de la nueva celda. El valor debe estar entre 0 y 8.</param>
+            <param name="y">Coordenada y de la nueva celda. El valor debe estar entre 0 y 8.</param>
+            <param name="value">Valor de la nueva celda. El valor debeestar entre 1 y 9.</param>
+        </member>
+        <member name="P:SudokuGame.Utils.SudokuCell.X">
+            <summary>
+            Retorna la coordenada x de la celda.
+            </summary>
+        </member>
+        <member name="P:SudokuGame.Utils.SudokuCell.Y">
+            <summary>
+            Retorna la coordenada y de la celda.
+            </summary>
+        </member>
+        <member name="P:SudokuGame.Utils.SudokuCell.Value">
+            <summary>
+            Retorna el valor alcmacenado en la celda.
+            </summary>
+        </member>
+        <member name="T:SudokuGame.Utils.SudokuGameState">
+            <summary>
+            Reresenta el estado del juego en un momento dado. Brinda informacion sobre las celdas iniciales
+            y los valores que el jugador ha situado.
+            </summary>
+        </member>
+        <member name="M:SudokuGame.Utils.SudokuGameState.#ctor(SudokuGame.Utils.SudokuCell[],SudokuGame.Utils.SudokuCell[])">
+            <summary>
+            Construye un estado de juego a partir de las celdas iniciales y las situadas por el jugador.
+            </summary>
+            <param name="originalProblem">Contiene las celdas iniciales del problema. No puede ser null</param>
+            <param name="playerCells">Contiene las celdas a las que el jugador ha dado valor.</param>
+        </member>
+        <member name="P:SudokuGame.Utils.SudokuGameState.OriginalProblem">
+            <summary>
+            Retorna las celdas iniciales del problema.
+            </summary>
+        </member>
+        <member name="P:SudokuGame.Utils.SudokuGameState.PlayerCells">
+            <summary>
+            Retorna las celdas que el jugador ha situado.
+            </summary>
+        </member>
+        <member name="T:SudokuGame.Utils.SudokuIOHelper">
+            <summary>
+            Contiene metodos que permiten almacenar en archivos o cargar de estos los estados o configuraciones de un juego Sudoku.
+            </summary>
+        </member>
+        <member name="M:SudokuGame.Utils.SudokuIOHelper.SaveProblem(System.String,System.Int32[0:,0:])">
+            <summary>
+            Almacena en el archivo especificado, al configuracion inicial dada de un problema Sudoku
+            </summary>
+            <param name="filePath">Archivo donde se van a almacenar los valores</param>
+            <param name="initialProblem">Representa la configuracion inicial de un problema Sudoku</param>
+            <remarks>No se realiza ninguna validacion sobre la configuracion inicial dada.</remarks>
+        </member>
+        <member name="M:SudokuGame.Utils.SudokuIOHelper.SaveToFile(System.String,SudokuGame.Utils.SudokuGameState)">
+            <summary>
+            Almacena en el archivo especificado el estado o configuracion de Sudoku dada.
+            </summary>
+            <param name="filePath">Camino del archivo donde se almacenara el estado del juego </param>
+            <param name="gameState">Estado de juego a almacenar</param>
+            <remarks>No se realiza ninguna validacion sobre la configuracion dada.</remarks>
+        </member>
+        <member name="M:SudokuGame.Utils.SudokuIOHelper.LoadFromFile(System.String)">
+            <summary>
+            Carga una configuracion de Sudoku almacenada en el archivo dado
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
